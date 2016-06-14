@@ -7,7 +7,7 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 
-namespace RatIt
+namespace li4
 {
     [Activity(Label = "RatIt", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
