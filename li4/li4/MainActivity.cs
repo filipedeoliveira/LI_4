@@ -9,11 +9,10 @@ using System.Collections.Generic;
 
 namespace li4
 {
-    [Activity(Label = "li4", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "RatIt", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
-        private List<string> mItens;
+        private List<string> mItems;
         private ListView mListView;
         protected override void OnCreate(Bundle bundle)
         {
@@ -23,13 +22,14 @@ namespace li4
             SetContentView(Resource.Layout.Main);
             mListView = FindViewById<ListView>(Resource.Id.myListView);
             //ed
-            mItens = new List<string>();
-            mItens.Add("Bob");
-            mItens.Add("khsdf");
-            mItens.Add("shfikwei");
+            mItems = new List<string>();
+            mItems.Add("Consultar Resturantes");
+            mItems.Add("Adicio");
+            mItems.Add("shfikwei");
 
-            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItens);
+            myListViewAdapter adapter = new myListViewAdapter(this, mItems);
 
+            string indexerTest = adapter.mItems[1];
             mListView.Adapter = adapter;
            
           
