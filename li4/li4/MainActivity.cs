@@ -7,7 +7,7 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 
-namespace li4
+namespace RatIt
 {
     [Activity(Label = "RatIt", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
@@ -29,7 +29,7 @@ namespace li4
 
             myListViewAdapter adapter = new myListViewAdapter(this, mItems);
 
-            string indexerTest = adapter.mItems[1];
+            //string indexerTest = adapter.mItems[1];
             mListView.Adapter = adapter;
            
           

@@ -15,7 +15,7 @@ namespace li4
     class myListViewAdapter : BaseAdapter<string> 
     {
 
-        private List<string> mItems;
+        public List<string> mItems;
         private Context mContext;
 
         public myListViewAdapter(Context context, List<string> items){
