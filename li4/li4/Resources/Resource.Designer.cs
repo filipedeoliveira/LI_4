@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("LI4_App1.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("li4.Resource", IsApplication=true)]
 
-namespace LI4_App1
+namespace li4
 {
 	
 	
@@ -61,7 +61,7 @@ namespace LI4_App1
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			public const int myListView = 2131034112;
 			
 			static Id()
 			{
