@@ -22,7 +22,7 @@ namespace li4
             
             SetContentView(Resource.Layout.Main);
             mListView = FindViewById<ListView>(Resource.Id.myListView);
-
+            //edfefee
             mItens = new List<string>();
             mItens.Add("Bob");
             mItens.Add("khsdf");
