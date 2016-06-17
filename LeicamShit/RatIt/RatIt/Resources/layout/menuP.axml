@@ -57,6 +57,28 @@
         android:orientation="horizontal"
         android:paddingTop="20px">
         <TextView
+            android:text="Cria Criticas"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="232.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textColor="#368DEB"
+            android:id="@+id/cria_criticas"
+            android:layout_alignParentBottom="true"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/cria_criticasB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Ok" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20px">
+        <TextView
             android:text="Menu Mapa"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="232.0dp"
@@ -73,20 +95,10 @@
             android:layout_marginRight="30dp"
             android:text="Ok" />
     </LinearLayout>
-    <ImageButton
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
         android:layout_marginTop="20dp"
-        android:id="@+id/imageButton1"
         android:background="@drawable/mudardepois" />
-    <TextView
-        android:text="Carregue na imagem para aderiar ao programa por completo"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="10"
-        android:textColor="#ffffff"
-        android:id="@+id/menu_mapa"
-        android:layout_alignParentBottom="true"
-        android:gravity="center" />
 </LinearLayout>

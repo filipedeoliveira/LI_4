@@ -45,10 +45,7 @@ namespace RatIt
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
-			
-			// aapt resource value: 0x7f020001
-			public const int mudardepois = 2130837505;
+			public const int mudardepois = 2130837504;
 			
 			static Drawable()
 			{
@@ -63,38 +60,161 @@ namespace RatIt
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040006
-			public const int criar_critica = 2130968582;
+			// aapt resource value: 0x7f040024
+			public const int btnConfirmar = 2130968612;
 			
-			// aapt resource value: 0x7f040007
-			public const int criar_criticaB = 2130968583;
+			// aapt resource value: 0x7f040017
+			public const int btnDescr = 2130968599;
 			
-			// aapt resource value: 0x7f04000a
-			public const int imageButton1 = 2130968586;
+			// aapt resource value: 0x7f040005
+			public const int btnLogIN = 2130968581;
+			
+			// aapt resource value: 0x7f040018
+			public const int btnSeg = 2130968600;
+			
+			// aapt resource value: 0x7f04001b
+			public const int btnSeg1 = 2130968603;
+			
+			// aapt resource value: 0x7f04001c
+			public const int btnSeg2 = 2130968604;
+			
+			// aapt resource value: 0x7f040009
+			public const int btnSignUP = 2130968585;
+			
+			// aapt resource value: 0x7f04002c
+			public const int btnSignUp = 2130968620;
+			
+			// aapt resource value: 0x7f04002b
+			public const int btnVoltar = 2130968619;
+			
+			// aapt resource value: 0x7f040002
+			public const int checkBox1 = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int checkBox2 = 2130968579;
+			
+			// aapt resource value: 0x7f04001f
+			public const int cria_criticas = 2130968607;
+			
+			// aapt resource value: 0x7f040020
+			public const int cria_criticasB = 2130968608;
+			
+			// aapt resource value: 0x7f04002f
+			public const int critica1 = 2130968623;
+			
+			// aapt resource value: 0x7f040031
+			public const int critica2 = 2130968625;
+			
+			// aapt resource value: 0x7f040016
+			public const int critico = 2130968598;
+			
+			// aapt resource value: 0x7f04002e
+			public const int criticoEsc = 2130968622;
+			
+			// aapt resource value: 0x7f040010
+			public const int imageButton1 = 2130968592;
+			
+			// aapt resource value: 0x7f040021
+			public const int imageView1 = 2130968609;
+			
+			// aapt resource value: 0x7f040025
+			public const int imagemPrato1 = 2130968613;
+			
+			// aapt resource value: 0x7f040027
+			public const int imagemPrato2 = 2130968615;
+			
+			// aapt resource value: 0x7f040029
+			public const int imagemPrato3 = 2130968617;
 			
 			// aapt resource value: 0x7f040000
 			public const int linearLayout1 = 2130968576;
 			
-			// aapt resource value: 0x7f040005
-			public const int linearLayout2 = 2130968581;
+			// aapt resource value: 0x7f04001e
+			public const int listaRest = 2130968606;
 			
-			// aapt resource value: 0x7f040003
-			public const int menu_Pratos = 2130968579;
+			// aapt resource value: 0x7f04001d
+			public const int localizacao = 2130968605;
 			
-			// aapt resource value: 0x7f040004
-			public const int menu_PratosB = 2130968580;
+			// aapt resource value: 0x7f04000c
+			public const int menu_Pratos = 2130968588;
+			
+			// aapt resource value: 0x7f04000d
+			public const int menu_PratosB = 2130968589;
+			
+			// aapt resource value: 0x7f04000e
+			public const int menu_mapa = 2130968590;
+			
+			// aapt resource value: 0x7f04000f
+			public const int menu_mapaB = 2130968591;
+			
+			// aapt resource value: 0x7f040022
+			public const int menu_pratos = 2130968610;
+			
+			// aapt resource value: 0x7f040026
+			public const int nomePrato1 = 2130968614;
+			
+			// aapt resource value: 0x7f040028
+			public const int nomePrato2 = 2130968616;
+			
+			// aapt resource value: 0x7f04002a
+			public const int nomePrato3 = 2130968618;
+			
+			// aapt resource value: 0x7f040015
+			public const int nome_crit = 2130968597;
+			
+			// aapt resource value: 0x7f040013
+			public const int nome_prato = 2130968595;
+			
+			// aapt resource value: 0x7f040011
+			public const int nome_restaurante = 2130968593;
 			
 			// aapt resource value: 0x7f040008
-			public const int menu_mapa = 2130968584;
+			public const int password = 2130968584;
 			
-			// aapt resource value: 0x7f040009
-			public const int menu_mapaB = 2130968585;
+			// aapt resource value: 0x7f040014
+			public const int prato = 2130968596;
+			
+			// aapt resource value: 0x7f040033
+			public const int restEscolhido = 2130968627;
+			
+			// aapt resource value: 0x7f040012
+			public const int restaurante = 2130968594;
+			
+			// aapt resource value: 0x7f04002d
+			public const int subMenutxt = 2130968621;
+			
+			// aapt resource value: 0x7f040023
+			public const int txtInserirRest = 2130968611;
+			
+			// aapt resource value: 0x7f040007
+			public const int txtPassword = 2130968583;
+			
+			// aapt resource value: 0x7f040006
+			public const int txtUserName = 2130968582;
+			
+			// aapt resource value: 0x7f040030
+			public const int txtcritica1 = 2130968624;
+			
+			// aapt resource value: 0x7f040032
+			public const int txtcritica2 = 2130968626;
+			
+			// aapt resource value: 0x7f04001a
+			public const int txtlocalizacao = 2130968602;
+			
+			// aapt resource value: 0x7f040019
+			public const int txtmenu = 2130968601;
 			
 			// aapt resource value: 0x7f040001
-			public const int ver_criticas = 2130968577;
+			public const int txtmenuAd = 2130968577;
 			
-			// aapt resource value: 0x7f040002
-			public const int ver_criticasB = 2130968578;
+			// aapt resource value: 0x7f040004
+			public const int userName = 2130968580;
+			
+			// aapt resource value: 0x7f04000a
+			public const int ver_criticas = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int ver_criticasB = 2130968587;
 			
 			static Id()
 			{
@@ -110,10 +230,37 @@ namespace RatIt
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int LogIn = 2130903040;
+			public const int AdDescricao = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int LogIn = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int MenuCriaCritica = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int MenuCritica = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int MenuMapa = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int menuP = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int MenuPratos = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int Registar = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int SubMenuCritico = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int SubMenuRest = 2130903050;
 			
 			static Layout()
 			{
