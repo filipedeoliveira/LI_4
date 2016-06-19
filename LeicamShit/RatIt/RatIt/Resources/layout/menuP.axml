@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:id="@+id/linearLayout1"
+    tools:visibility="visible">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20px">
+        <TextView
+            android:text="Ver Critícas"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="232.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textColor="#368DEB"
+            android:id="@+id/ver_criticas"
+            android:layout_alignParentBottom="true"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/ver_criticasB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Ok" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20px">
+        <TextView
+            android:text="Menu Pratos"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="232.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textColor="#368DEB"
+            android:id="@+id/menu_Pratos"
+            android:layout_alignParentBottom="true"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/menu_PratosB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Ok" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20px">
+        <TextView
+            android:text="Cria Criticas"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="232.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textColor="#368DEB"
+            android:id="@+id/cria_criticas"
+            android:layout_alignParentBottom="true"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/cria_criticasB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Ok" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20px">
+        <TextView
+            android:text="Menu Mapa"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="232.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textColor="#368DEB"
+            android:id="@+id/menu_mapa"
+            android:layout_alignParentBottom="true"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/menu_mapaB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Ok" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mudardepois" />
+</LinearLayout>
