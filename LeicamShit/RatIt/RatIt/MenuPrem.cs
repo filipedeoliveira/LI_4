@@ -15,6 +15,7 @@ namespace RatIt
     [Activity(Label = "RatIt")]
     public class MenuPrem : Activity
     {
+        private Button btnCriarRest;
         private Button btnVerCrit;
         private Button btnMenuPratos;
         private Button btnMenuMapa;
@@ -27,6 +28,7 @@ namespace RatIt
             // Create your application here
             SetContentView(Resource.Layout.menuP);
 
+            btnCriarRest = FindViewById<Button>(Resource.Id.criar_restB);
             btnVerCrit = FindViewById<Button>(Resource.Id.ver_criticasB);
             btnMenuPratos = FindViewById<Button>(Resource.Id.menu_PratosB);
             btnMenuMapa = FindViewById<Button>(Resource.Id.menu_mapaB);
@@ -35,6 +37,13 @@ namespace RatIt
             btnVerCrit.Click += BtnVerCrit_Click;
             btnMenuMapa.Click += BtnMenuMapa_Click;
             btnCriaCritica.Click += BtnCriaCritica_Click;
+            btnCriarRest.Click += BtnCriarRest_Click;
+        }
+
+        private void BtnCriarRest_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(CriaRestaurante));
+            this.StartActivity(intent);
         }
 
         private void BtnCriaCritica_Click(object sender, EventArgs e)

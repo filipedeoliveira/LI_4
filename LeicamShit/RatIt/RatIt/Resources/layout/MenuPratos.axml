@@ -120,4 +120,20 @@
             android:layout_alignParentBottom="true"
             android:gravity="center" />
     </LinearLayout>
+    <Button
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCriarPrato"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:height="50dp"
+        android:paddingTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="100dp"
+        android:text="Criar Prato" />
 </LinearLayout>

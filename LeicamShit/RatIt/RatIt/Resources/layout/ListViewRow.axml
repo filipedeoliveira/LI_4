@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:paddingLeft="2dp"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp"
+    android:weightSum="100">
+    <TextView
+        android:text="Rest"
+        android:layout_width="match_parent"
+        android:layout_weight="33"
+        android:layout_height="wrap_content"
+        android:id="@+id/rest" />
+    <TextView
+        android:text="Pontuacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33"
+        android:id="@+id/pont" />
+    <TextView
+        android:text="Freg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="34"
+        android:id="@+id/freguesia" />
+</LinearLayout>

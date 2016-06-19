@@ -19,6 +19,29 @@
         android:textStyle="bold"
         android:layout_marginBottom="10dp"
         android:textSize="30sp" />
+    <TextView
+        android:text="Insira um rating"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_weight="10"
+        android:layout_height="wrap_content"
+        android:textColor="#808000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtRating"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/rating"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="rating 0 a 5"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff" />
     <CheckBox
         android:text="Formato  àudio"
         android:layout_width="match_parent"
@@ -34,7 +57,7 @@
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="35dp"
-        android:id="@+id/userName"
+        android:id="@+id/critica"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -43,11 +66,11 @@
         android:paddingLeft="10dp"
         android:textColor="#ffffff" />
     <Button
-        android:text="Seguinte"
+        android:text="Validar"
         android:background="#808080"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnLogIN"
+        android:id="@+id/btnCriar"
         android:textSize="20dp"
         android:textColor="#fff"
         android:textStyle="bold"
